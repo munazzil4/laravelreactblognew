@@ -1,0 +1,13 @@
+.floating-user {
+    border-radius: 20px 20px 0 0;
+}
+.author-profile-pic {
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    will-change: transform;
+    transition-delay: 0.1s;
+}
+
+.author-profile-pic-container:hover .author-profile-pic {
+    transform: rotateY(180deg);
+}

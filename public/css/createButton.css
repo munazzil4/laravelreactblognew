@@ -1,0 +1,46 @@
+.createButton {
+    width: 76px;
+    font-size: 14px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.bottom-right {
+    right: 0;
+    bottom: 0;
+    height: 76px;
+}
+.plus {
+    transition: 0.5s;
+    z-index: 1;
+}
+.internalCircle {
+    background: white;
+    width: 1px;
+    height: 1px;
+    transition: 0.5s;
+    position: absolute;
+    will-change: width height;
+    transition: 0.5s;
+    transform-origin: right;
+    transition-timing-function: ease-out;
+}
+.createPost {
+    border-radius: 20px 0 0 20px;
+    transition: 0.5s;
+}
+
+.createPost-text {
+    transition: 0.5s;
+}
+.button-link:hover .plus {
+    transform: rotate(360deg);
+    color: #3490dc;
+}
+.button-link:hover .internalCircle {
+    width: 70px;
+    height: 70px;
+}
+
+.button-link:hover .createPost-text {
+    transform: scale(1.025) translateX(0.2em);
+}

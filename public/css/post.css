@@ -1,0 +1,33 @@
+.post {
+    overflow-x: hidden;
+}
+
+.postcontent {
+    background-color: white;
+    border-radius: 20px;
+    border: solid 5px #f2f4f2;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.author-profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
+    overflow-y: hidden;
+}
+.comments {
+    background: white;
+}
+.comments-comment {
+    background: white;
+}
+.container-title {
+    font-size: 2.5rem;
+}
+.content-ancle {
+    margin-top: -100px;
+}

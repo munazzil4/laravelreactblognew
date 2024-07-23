@@ -1,0 +1,30 @@
+.custom-modal {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    animation: fadein 0.7s;
+    will-change: opacity;
+}
+.modal {
+    display: flex;
+}
+.modal-content {
+    background-color: white;
+    animation: fall 0.7s;
+    animation-timing-function: ease;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(0vh);
+    }
+}
